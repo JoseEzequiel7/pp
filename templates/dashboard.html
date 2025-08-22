@@ -1,0 +1,16 @@
+<main>
+
+    <h2>Adicionar Matéria</h2>
+    <form action="{{ url_for('adicionar_materia') }}" method="POST">
+        <input type="text" name="materia" placeholder="Nome da Matéria">
+        <button type="submit">Adicionar</button>
+    </form>
+    <br>
+    
+    <h2>Adicionar Atividade</h2>
+    <form action="{{ url_for('adicionar_atividade') }}" method="POST">
+        <input type="text" name="atividade" placeholder="Nome da Atividade">
+        <button type="submit">Adicionar</button>
+    </form>
+    
+</main>
